@@ -1,0 +1,79 @@
+# RULES FOR CODER AI
+
+## GENERAL GUIDELINES
+1. Always read and understand the README.md before making any changes to the codebase.
+2. Add the following sections to the README.md if they do not exist: CODE STRUCTURE, CHANGES LOG, CURRENT CAPABILITIES OF THE SYSTEM, WHAT IS LEFT.
+3. Follow the established code structure documented in the README.md.
+4. Maintain consistent coding style, naming conventions, and formatting throughout the project.
+5. Write clean, maintainable, and well-documented code.
+6. Prioritize readability over clever optimizations unless performance is critical.
+
+## DOCUMENTATION REQUIREMENTS
+1. Add detailed docstrings to all functions, classes, and modules.
+2. Comment complex logic or algorithms to explain the reasoning.
+3. Update the README.md whenever you make significant changes:
+   - Update the CODE STRUCTURE section when adding new files or changing architecture
+   - Add entries to the CHANGES LOG with timestamp, description, and rationale
+   - Keep the CURRENT CAPABILITIES OF THE SYSTEM section up to date
+   - Update the development roadmap in "WHAT IS LEFT" section
+
+## CHANGES LOG PROTOCOL
+1. Before making any changes, check the CHANGES LOG to understand recent modifications.
+2. For each set of related changes, add a new entry to the CHANGES LOG with:
+   - Date and time (YYYY-MM-DD HH:MM format)
+   - Brief but descriptive title of the change
+   - Detailed explanation of what was changed and why
+   - Files affected by the change
+   - Any known limitations or future work related to this change
+   - Add a brief summary of what the user originally asked for the change to be made
+
+## CODE STRUCTURE MANAGEMENT
+1. Maintain the established directory structure.
+2. Place new files in appropriate directories based on their functionality.
+3. If new directories are needed, justify their creation and document them in the README.
+4. Keep related functionality grouped together.
+5. If refactoring code structure, provide detailed explanation in the CHANGES LOG.
+
+## TESTING AND VALIDATION
+1. Write tests for all new functionality.
+2. Update existing tests when modifying functionality.
+3. Ensure all tests pass before considering changes complete.
+4. Document any known edge cases or limitations.
+
+## ERROR HANDLING
+1. Implement robust error handling for all user inputs and external operations.
+2. Use descriptive error messages that help diagnose issues.
+3. Log errors appropriately based on severity.
+4. Fail gracefully when unexpected conditions occur.
+
+## SYSTEM CAPABILITIES TRACKING
+1. Keep the CURRENT CAPABILITIES OF THE SYSTEM section of README.md accurate and up to date.
+2. When implementing new features, add them to this section with a brief description.
+3. When enhancing existing features, update their descriptions.
+4. Document any limitations or constraints of implemented features.
+
+## DEVELOPMENT ROADMAP MANAGEMENT
+1. Maintain an accurate "WHAT IS LEFT" section in the README.md.
+2. As you complete tasks, move them from "WHAT IS LEFT" to "CURRENT CAPABILITIES".
+3. Add any newly discovered requirements to the roadmap.
+4. Prioritize remaining tasks based on dependencies and importance.
+
+## PERFORMANCE CONSIDERATIONS
+1. Consider the efficiency of algorithms and data structures.
+2. Optimize critical paths while maintaining code clarity.
+3. Document any performance trade-offs made and the reasoning behind them.
+4. If introducing potentially expensive operations, provide justification.
+
+## SECURITY PRACTICES
+1. Validate all user inputs.
+2. Sanitize data before storing or processing it.
+3. Use secure coding practices appropriate for the project's domain.
+4. Document any security considerations for future maintainers.
+
+## COMPATIBILITY REQUIREMENTS
+1. Ensure changes maintain compatibility with specified platforms and environments.
+2. Document any new dependencies introduced.
+3. Consider backward compatibility when making changes to APIs or interfaces.
+4. Test changes across all supported environments when possible.
+
+Remember that your primary goal is to maintain a high-quality, well-documented codebase while making progress toward the system goals outlined in the README.md. Always prioritize clarity, correctness, and maintainability in your changes.

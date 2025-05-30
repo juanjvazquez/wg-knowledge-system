@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <title>Zettelkasten-BranchView</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="grid">
+
+      <div id="back">
+        <a href="https://niklas-luhmann-archiv.de/bestand/zettelkasten/inhaltsuebersicht" title="https://niklas-luhmann-archiv.de/bestand/zettelkasten/inhaltsuebersicht">Zurück zur Inhaltsübersicht</a>
+      </div>
+      <div id="toc_container">
+        
+        <h2>Einstiegspunkte</h2>
+        <ul id="toc_list" class="toc_list"></ul>
+      </div>
+
+      <main>
+
+        <h1>Zettelkasten I und II – Übersicht über die editorisch konstituierten Zettelkomplexe</h1>
+        <p>
+          Hier finden Sie eine Übersicht über die bei der Edition des
+          Zettelkastens angelegten Zettelkomplexe. Die Verknüpfungstypik, mit der Zettel zu Zettelsträngen und diese zu Zettelkomplexen verbunden werden, wird in dem
+          <a href="https://niklas-luhmann-archiv.de/bestand/zettelkasten/tutorial" title="https://niklas-luhmann-archiv.de/bestand/zettelkasten/tutorial">Tutorial
+            zum Zettelkasten</a> im Detail unter Punkt B (3) erläutert.
+        </p>
+        <div id="messages"></div>
+
+        <div id="content">
+          <p>Wählen Sie in der linken Spalte einen Einstiegspunkt aus (hinter der Zettelnummer, die den 
+            jeweiligen Startpunkt eines Zettelstrangs markiert, findet sich in eckigen Klammern 
+            die Angabe der Zahl der Zettel, die der Komplex enthält). Anschließend wird im Hauptfenster
+            jeweils der editorisch konstituierte Zettelkomplex in einer Visualisierung 
+            angezeigt. Diese Visualisierung ist anklickbar, so dass von jedem Zettelknoten aus 
+            direkt auf das entsprechende Zetteldigitalisat und dessen Transkription gewechselt werden kann.</p>
+        </div>
+
+      </main>
+      </div>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

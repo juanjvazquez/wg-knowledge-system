@@ -1,0 +1,64 @@
+# RULES.txt
+
+## Instructions for Cursor (LLM-Powered IDE)
+
+1. **Always Read the README First**  
+   - Before making any changes to the repository, read the entire README.  
+   - Focus on the sections:
+     - **TITLE**
+     - **CODE STRUCTURE**
+     - **CHANGES LOG**
+     - **CURRENT CAPABILITIES OF THE SYSTEM**
+     - **TESTS** (if present)
+   - If any of these sections do not exist, **create them** as part of your update process.
+   - These sections will guide you on the current state of the project and the goals we are working towards.
+
+2. **Maintain and Update the Code Structure**  
+   - After understanding the project’s objectives and constraints from the README, update the code to match the ideal structure as described under **CODE STRUCTURE**.
+   - If there is no direct mention in the README on how new files or features should be organized, follow best practices (e.g., consistent naming, logical folder hierarchy, minimal duplication).
+
+3. **Log All Changes in the README**  
+   - For every update you make to the codebase, record the changes in the **CHANGES LOG** section of the README.
+   - Each entry should include:
+     - A brief description of the change.
+     - The date or timestamp of the change.
+     - (Optional) The reason or justification for the change.
+   - Ensure the log is clear and concise so that others can easily understand your modifications.
+   - If the **CHANGES LOG** section does not exist, create it.
+
+4. **Keep the Capabilities Section Updated**  
+   - Whenever you add a feature or improve an existing one, update the **CURRENT CAPABILITIES OF THE SYSTEM** in the README.
+   - State newly added capabilities clearly so that the README always provides an up-to-date overview of the project’s functionality.
+   - If the **CURRENT CAPABILITIES OF THE SYSTEM** section does not exist, create it.
+
+5. **Maintain a Thorough Yet Practical TESTS Section**  
+   - If a **TESTS** section exists in the README, update it with new or improved test cases relevant to each change.
+   - If no **TESTS** section exists, create one and outline how the tests are organized, what they cover, and how to run them.
+   - Ensure that tests are:
+     - **Useful** – they accurately validate critical functionality without being overly complex or redundant.
+     - **Reasonable** – they do not impede development by being too time-consuming or flaky.
+     - **Incremental** – add tests gradually, focusing on critical paths and high-impact features first.
+
+6. **Do Not Remove Existing Content Without Good Reason**  
+   - If you need to delete or refactor existing code, provide a clear explanation in the **CHANGES LOG**.
+   - Preserve backward compatibility whenever possible or discuss a migration plan (in the **CHANGES LOG** or code comments) if a breaking change is truly necessary.
+
+7. **Focus on Incremental, Meaningful Improvements**  
+   - Prioritize bug fixes, stability, and clarity over superficial or stylistic changes.
+   - Avoid large, sweeping refactors unless it is certain they do not introduce regressions and clearly advance the project’s goals.
+
+8. **Keep a Record of Outstanding Tasks**  
+   - If there are features or improvements that remain unfinished, note them at the end of the **CURRENT CAPABILITIES OF THE SYSTEM** section under a subheading “Remaining Tasks” or “What’s Left”.
+   - Update these tasks as they are completed or reprioritized.
+
+9. **Adhere to Project Conventions**  
+   - Follow coding standards set by the existing codebase (linting rules, test structure, function/method naming conventions, etc.).
+   - Use consistent commit messages or logging statements when recording changes, referencing the relevant sections in the README.
+
+10. **Safety and Validation**  
+    - Where appropriate, ensure that any changes you make are validated by tests or sanity checks.
+    - If no tests exist, add at least basic checks or outline recommended test cases in the **CHANGES LOG** or code comments.
+
+11. **Respect Privacy and Integrity**  
+    - Do not expose private keys, credentials, or sensitive information in code, logs, or documentation.
+    - If the project uses third-party services or APIs, ensure any tokens or secrets are secured appropriately.

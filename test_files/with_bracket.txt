@@ -1,0 +1,1 @@
+**Text**[with bracket] This should stop bolding at the "[" character 

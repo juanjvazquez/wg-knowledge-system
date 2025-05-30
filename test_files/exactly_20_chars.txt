@@ -1,0 +1,1 @@
+**ThisisExactly20Chars** This should be processed since it's exactly 20 characters 
