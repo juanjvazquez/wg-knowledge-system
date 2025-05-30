@@ -3,6 +3,7 @@
 #### things to open
 - To check e.g. note `ZK_1_NB_1-1b_V` use the link `https://niklas-luhmann-archiv.de/bestand/zettelkasten/zettel/ZK_1_NB_1-1b_V`.
 - This map shows the full index of notes `https://assets.niklas-luhmann-archiv.de/branchview/#ZK_1_NB_1_1_V`.
+- This google doc for comments and ideas `https://docs.google.com/document/d/1jZOfxBorigcSgFQWZs9goZXc-VAJ5Q5DydbTScOJzUw/edit?tab=t.0`.
 
 TLDR: Putting the entire knowledge system from [Niklas Luhmann](https://niklas-luhmann-archiv.de/bestand/zettelkasten/inhaltsuebersicht) into Mardown.
 
